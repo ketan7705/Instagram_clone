@@ -18,6 +18,10 @@ const userSchema = new mongoose.Schema({
         type:ObjectId,
         ref:"User"
     }],
+    pic:{
+        type:String,
+        default:"https://res.cloudinary.com/ketancloud/image/upload/v1588848237/No_image_pic_jspzfv.png"
+    },
     following:[{
         type:ObjectId,
         ref:"User"

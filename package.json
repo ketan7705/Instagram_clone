@@ -18,7 +18,7 @@
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.11",
-    "nodemailer": "^6.4.6",
+    "nodemailer": "^6.4.16",
     "nodemailer-sendinblue-transport": "^1.2.3",
     "sib-api-v3-sdk": "github:sendinblue/APIv3-nodejs-library"
   }
